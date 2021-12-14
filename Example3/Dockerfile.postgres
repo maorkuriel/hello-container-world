@@ -1,3 +1,3 @@
-FROM postgres:9.5
+FROM postgres:9.5@sha256:75ebf479151a8fd77bf2fed46ef76ce8d518c23264734c48f2d1de42b4eb40ae
 
 COPY hello.sql /docker-entrypoint-initdb.d/
